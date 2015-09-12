@@ -1,0 +1,131 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+body, html {
+font-family: 'PT Sans Narrow', sans-serif;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+header, main, footer {
+    padding-left: 240px;
+}
+
+@media only screen and (min-width : 993px) {
+  .container {
+    width: 85%; } 
+
+}
+
+    .side-nav {
+background:#0b0b0b;
+    }
+
+    .side-nav.fixed a, .side-nav.fixed {
+    	color:#fff;
+    	text-align:center;
+    }
+
+    .side-nav.fixed a {
+text-align:left;
+font-size:1.2em;
+    }
+
+    .side-nav.fixed strong {
+    	font-weight:800;
+    }
+
+    li.logo img {
+max-width:100%;
+height:auto;
+
+    }
+
+    .side-nav.fixed a.brand-logo {
+    	min-height:210px;
+    	padding-top:10px;
+    }
+.side-nav li:hover {
+	background:#0b0b0b;
+}
+    .side-nav li.logo:hover {
+    	background:#0b0b0b;
+    }
+span.badge.new {
+line-height:1;
+background:green;
+}
+
+.card .card-content .card-title {
+font-weight:800;
+color:#ee2d24 !important;
+}
+  span.badge.new:after {
+  	content:"" !important;
+  }
+  nav {
+  	background-color:#ee2d24;
+  }
+
+  span.badge.new.mdown {
+  	background:red;
+  }
+
+  span.badge.new.injured {
+  	background:orange;
+  }
+
+  body {
+background:#e5e5e6;
+  }
+
+  a.page-title {
+font-size:32px;
+font-weight:800;
+  }
+
+@media screen and (max-width: 992px) {
+header, main, footer {
+    padding-left: 0;
+}
+
+header {
+background:#0b0b0b;
+}
+
+header a {
+	color:#fff;
+	font-size:1.2em;
+	font-weight:800;
+	padding:10px 3px;
+}
+}
+
+.card-action ul {
+	margin:5px 0;
+}
+
+.card-action strong {
+	font-weight:800;
+}
+
+.card .card-content { padding:5px 20px 5px 20px; }
+
+.card .card-action {
+	padding:5px 20px 5px 20px;
+}
+
+.card-action p.text-center {
+	text-align:center;
+	margin:10px 0 0 ;
+}
